@@ -3,16 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CartTest.EquivalPart">
+      <class name="CartTest.CartRedir">
         <methods>
-          <include name="setUp"/>
-          <include name="Symbols"/>
-          <include name="Numbers"/>
+          <include name="alertCartLink"/>
+          <include name="cartLiііnk"/>
           <include name="turnOff"/>
-          <include name="cartEntry"/>
-          <include name="Letters"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- CartTest.EquivalPart -->
+      </class> <!-- CartTest.CartRedir -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

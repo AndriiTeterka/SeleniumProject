@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="CartTest.EquivalPart">
+        <methods>
+          <include name="setUp"/>
+          <include name="Symbols"/>
+          <include name="Numbers"/>
+          <include name="turnOff"/>
+          <include name="cartEntry"/>
+          <include name="Letters"/>
+        </methods>
+      </class> <!-- CartTest.EquivalPart -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
